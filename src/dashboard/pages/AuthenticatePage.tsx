@@ -92,7 +92,7 @@ export default function AuthenticatePage() {
         setStage("success");
       } else {
         setResult({
-          name: null,
+          name: "Unrecognized Person",
           confidence: formatted.confidence,
         });
         setStage("failure");

@@ -6,7 +6,7 @@ import {
   BarChart3,
   ScrollText,
   Fingerprint,
-  Footprints,
+  
 } from "lucide-react";
 
 const NAV = [

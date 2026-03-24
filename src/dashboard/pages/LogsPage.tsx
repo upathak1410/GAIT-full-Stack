@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Search, Filter, ChevronDown } from "lucide-react";
 import { useEffect } from "react";

@@ -40,7 +40,7 @@ export default function LiveActivityPage() {
   }
 
   useEffect(() => {
-    let isMounted = true;
+    
 
     async function init() {
       await fetchLogs();
@@ -55,7 +55,7 @@ export default function LiveActivityPage() {
     }, 3500);
 
     return () => {
-      isMounted = false;
+      
       clearInterval(interval);
     };
   }, [paused]);
