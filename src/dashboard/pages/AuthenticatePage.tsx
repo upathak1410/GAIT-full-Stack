@@ -56,7 +56,7 @@ export default function AuthenticatePage() {
 
       console.log("FETCH REQUEST BHEJ RAHA HU")
 
-      const res = await fetch("http://140.245.221.62:8000/predict", {
+      const res = await fetch("/api/predict", {
         method: "POST",
         body: formData,
       });

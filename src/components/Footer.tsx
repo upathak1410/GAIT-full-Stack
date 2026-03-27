@@ -13,13 +13,14 @@ export default function Footer() {
     >
       <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-2.5">
-          <div className="w-7 h-7 rounded-lg flex items-center justify-center" style={{ background:'linear-gradient(135deg,#f97316,#ea580c)', boxShadow:'0 0 10px rgba(249,115,22,0.35)' }}>
-            <Footprints size={13} className="text-white" />
+          <div className="w-7 h-7 rounded-lg flex items-center justify-center">
+            {/* <Footprints size={13} className="text-white" /> */}
+            <img src="/favicon.svg" alt="" />
           </div>
-          <span className="font-semibold text-base" style={{ fontFamily:'var(--font-display)', color:'var(--text-primary)' }}>GaitAuth</span>
+          <span className="font-semibold text-base" style={{ fontFamily:'var(--font-display)', color:'var(--text-primary)' }}>GaitStride</span>
         </div>
         <p className="text-sm text-center" style={{ color:'var(--text-muted)' }}>
-          © GaitAuth — Academic Project · Biometric Authentication using Gait Recognition
+          © GaitStride — Project · Biometric Authentication using Gait Recognition
         </p>
         <a href="#" className="flex items-center gap-2 text-sm transition-colors duration-200"
           style={{ color:'var(--text-muted)' }}

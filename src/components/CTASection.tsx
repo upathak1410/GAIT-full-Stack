@@ -27,7 +27,8 @@ export default function CTASection() {
               border:'1px solid rgba(251,146,60,0.5)',
               boxShadow:'0 0 40px rgba(249,115,22,0.35),0 0 80px rgba(249,115,22,0.15)',
             }}>
-              <Footprints size={28} style={{ color:'#fdba74', filter:'drop-shadow(0 0 6px rgba(249,115,22,0.7))' }} />
+              <img src="/favicon.svg" alt="" />
+              {/* <Footprints size={28} style={{ color:'#fdba74', filter:'drop-shadow(0 0 6px rgba(249,115,22,0.7))' }} /> */}
             </div>
           </motion.div>
 

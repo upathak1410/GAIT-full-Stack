@@ -42,7 +42,7 @@ export default function DashSidebar() {
             color: "var(--text-primary)",
           }}
         >
-          GaitAuth
+          GaitStride
         </span>
       </div>
 

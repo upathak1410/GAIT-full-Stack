@@ -30,7 +30,7 @@ export default function Navbar() {
               color: "var(--text-primary)",
             }}
           >
-            Gait X
+            GaitStride
           </span>
         </div>
 
